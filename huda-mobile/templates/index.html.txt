@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Huda Mobile</title>
+  <link rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+  <div class="container fade-in">
+    <h1>Stop Scam Calls.<br/>Switch to Huda Mobile.</h1>
+    <p>UK’s first mobile network built to protect you.</p>
+    <form action="/signup" method="POST">
+      <input type="email" name="email" placeholder="Your email address" required />
+      <button type="submit">Join the Waitlist</button>
+    </form>
+    <small>🔒 We never share your data. Unsubscribe anytime.</small>
+  </div>
+</body>
+</html>
